@@ -6,7 +6,7 @@ public class Excersise10 {
 		String version = "Version 1.0";
 		System.out.println(version);
 		
-		double IVA = 21;
+		final double IVA = 21;
 		
 		Scanner read = new Scanner(System.in);
 		
