@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class Excersise10 {
 	public static void main(String[] args) {
+		String version = "Version 1.0";
+		System.out.println(version);
+		
 		double IVA = 21;
 		
 		Scanner read = new Scanner(System.in);
