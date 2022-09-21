@@ -13,7 +13,8 @@ public class Excersise10 {
 		double parteIVA = price * (IVA / 100);
 		double finalPrice = parteIVA + price;
 		
-		System.out.print("El precio final con el IVA aplicado es: " + Math.round(finalPrice * 100.0) / 100.0 + "€");
+		System.out.println("El precio final con el IVA aplicado es: " + Math.round(finalPrice * 100.0) / 100.0 + "€");
+		System.out.println("La parte aplicable de IVA es: " + Math.round(parteIVA * 100.0) / 100.0 + "€");
 		
 		read.close();
 	}
