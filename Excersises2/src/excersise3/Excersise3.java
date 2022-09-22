@@ -4,16 +4,26 @@ import java.util.Scanner;
 public class Excersise3 {
 
 	public static void main(String[] args) {
+		// Variables
+		int actualyear;
+		int birthage;
+		int age;
+		
+		// Scanner Start
 		Scanner read = new Scanner(System.in);
 		
+		// Recogida de Datos
 		System.out.print("Introduce the actual year: ");
-		int actualyear = read.nextInt();
+		actualyear = read.nextInt();
 		
 		System.out.print("Introduce your age of birth: ");
-		int birthage = read.nextInt();
+		birthage = read.nextInt();
 		
-		int age = (actualyear - birthage);
-		System.out.println("You are "+ age + "yo");
+		// Calculos
+		age = (actualyear - birthage);
+		
+		// Resultados
+		System.out.println("You are "+ age + "years old");
 		
 		read.close();
 

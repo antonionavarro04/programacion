@@ -4,14 +4,23 @@ import java.util.Scanner;
 public class Excersise5 {
 
 	public static void main(String[] args) {
+		// Variables
+		double radius;
+		double longitude;
+		double area;
+		
+		// Scanner Start
 		Scanner read = new Scanner(System.in);
 		
+		// Recogida de Datos
 		System.out.print("Introduce the Circunference Radius: ");
-		double radius = read.nextFloat();
+		radius = read.nextFloat();
 		
-		double longitude = Math.PI * (radius * 2);
-		double area = Math.PI * (Math.pow(radius, 2));
+		// Calculos
+		longitude = Math.PI * (radius * 2);
+		area = Math.PI * (Math.pow(radius, 2));
 		
+		// Resultados
 		System.out.println("Longitude is: " + longitude);
 		System.out.println("Area is: " + area);
 		

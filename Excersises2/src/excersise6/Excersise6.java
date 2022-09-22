@@ -4,19 +4,31 @@ import java.util.Scanner;
 public class Excersise6 {
 
 	public static void main(String[] args) {
+		// Variables
+		double num1;
+		double num2;
+		double suma;
+		double resta;
+		double multiplicacion;
+		double division;
+		
+		// Scanner Start
 		Scanner read = new Scanner(System.in);
 		
+		// Recogida de Datos
 		System.out.print("Introduce a number: ");
-		double num1 = read.nextDouble();
-		
+		num1 = read.nextDouble();
+		//
 		System.out.print("Introduce another number: ");
-		double num2 = read.nextDouble();
+		num2 = read.nextDouble();
 		
-		double suma = num1 + num2;
-		double resta = num1 - num2;
-		double multiplicacion = num1 * num2;
-		double division = num1 / num2;
+		// Calculos
+		suma = num1 + num2;
+		resta = num1 - num2;
+		multiplicacion = num1 * num2;
+		division = num1 / num2;
 		
+		// Resultados
 		System.out.println("La suma es: " + suma);
 		System.out.println("La resta es: " + resta);
 		System.out.println("La multiplicacion es: " + multiplicacion);

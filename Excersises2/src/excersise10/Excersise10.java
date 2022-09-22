@@ -4,20 +4,27 @@ import java.util.Scanner;
 
 public class Excersise10 {
 	public static void main(String[] args) {
-		String version = "Version 1.0";
-		System.out.println(version);
+		// Variables
+		double price;
+		double parteIVA;
+		double finalPrice;
 		
+		// Constantes
 		final double IVA = 21;
 		
+		// Creacion y configuracion del Scanner
 		Scanner read = new Scanner(System.in);
 		read.useLocale(Locale.US);
 		
+		// Precio1
 		System.out.print("Precio del Producto sin IVA: ");
-		double price = read.nextDouble();
+		price = read.nextDouble();
 		
-		double parteIVA = price * (IVA / 100);
-		double finalPrice = parteIVA + price;
+		// Calculo del IVA
+		parteIVA = price * (IVA / 100);
+		finalPrice = parteIVA + price;
 		
+		// Resultado por Consola
 		System.out.println("El precio final con el IVA aplicado es: " + Math.round(finalPrice * 100.0) / 100.0 + "€");
 		System.out.println("La parte aplicable de IVA es: " + Math.round(parteIVA * 100.0) / 100.0 + "€");
 		
