@@ -8,6 +8,9 @@ public class Excersise9 {
 		double pesetas;
 		double euros;
 		
+		// Constantes
+		final float CAMBIO_A_PESETAS = 166.386f;
+		
 		// Inicializacion del Scanner
 		Scanner read = new Scanner(System.in);
 		
@@ -16,7 +19,7 @@ public class Excersise9 {
 		pesetas = read.nextFloat();
 		
 		// Calculo
-		euros = pesetas / 166.386;
+		euros = pesetas / CAMBIO_A_PESETAS;
 		
 		// Resultado
 		System.out.println(pesetas + "pts son " + Math.round(euros * 100.0) / 100.0 + "€");
