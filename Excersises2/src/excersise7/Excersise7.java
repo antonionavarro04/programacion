@@ -7,10 +7,10 @@ public class Excersise7 {
 		Scanner read = new Scanner(System.in);
 		
 		System.out.print("Introduce tu nombre: ");
-		String name = read.next();
+		String name = read.nextLine();
 		
 		System.out.print("Introduce tu direccion: ");
-		String address = read.next();
+		String address = read.nextLine();
 		
 		System.out.print("Introduce tu numero de telefono: ");
 		int telephone = read.nextInt();

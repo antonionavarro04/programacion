@@ -1,4 +1,5 @@
 package excersise10;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Excersise10 {
@@ -9,6 +10,7 @@ public class Excersise10 {
 		final double IVA = 21;
 		
 		Scanner read = new Scanner(System.in);
+		read.useLocale(Locale.US);
 		
 		System.out.print("Precio del Producto sin IVA: ");
 		double price = read.nextDouble();
