@@ -16,7 +16,7 @@ public class Excersise10 {
 		Scanner read = new Scanner(System.in);
 		read.useLocale(Locale.US);
 		
-		// Precio1
+		// Introduccion del precio del producto sin IVA
 		System.out.print("Precio del Producto sin IVA: ");
 		price = read.nextDouble();
 		

@@ -14,7 +14,7 @@ public class Excersise5 {
 		
 		// Recogida de Datos
 		System.out.print("Introduce the Circunference Radius: ");
-		radius = read.nextFloat();
+		radius = read.nextDouble();
 		
 		// Calculos
 		longitude = Math.PI * (radius * 2);
