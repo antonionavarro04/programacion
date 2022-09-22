@@ -21,7 +21,7 @@ public class Excersise10 {
 		price = read.nextDouble();
 		
 		// Calculo del IVA
-		parteIVA = price * (IVA / 100);
+		parteIVA = price * (IVA / 100); //
 		finalPrice = parteIVA + price;
 		
 		// Resultado por Consola
