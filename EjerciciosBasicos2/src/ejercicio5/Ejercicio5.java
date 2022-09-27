@@ -17,7 +17,7 @@ public class Ejercicio5 {
 		System.out.print("Introduce la nota del Segundo Trimestre");
 		nota2 = read.nextByte();
 		
-		System.out.print("Introduce la nota del Tercer Trimestre");
+		System.out.print("Introduce la ota del Tercer Trimestre");
 		nota3 = read.nextByte();
 		
 		System.out.println(nota1 + nota2 + nota3);
