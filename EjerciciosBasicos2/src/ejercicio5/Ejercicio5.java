@@ -7,8 +7,7 @@ public class Ejercicio5 {
 
 	public static void main(String[] args) {
 		// Variables
-		int nota1, nota2, nota3, notaMediaSinDecimales;
-		
+		int nota1, nota2, nota3;
 		float notaMedia;
 
 		// Scanner
@@ -28,10 +27,12 @@ public class Ejercicio5 {
 
 		// Calculos
 		notaMedia = (nota1 + nota2 + nota3) / 3.0f;
-		notaMediaSinDecimales = (int) notaMedia;
+		
+		// Resultados
+		System.out.println();System.out.println("==============================");System.out.println();
 		
 		System.out.println("La nota media fue de: " + notaMedia);
-		System.out.println("La nota media en el boletin es de: " + notaMediaSinDecimales);
+		System.out.println("La nota media en el boletin es de: " + (byte) notaMedia);
 
 		read.close();
 
