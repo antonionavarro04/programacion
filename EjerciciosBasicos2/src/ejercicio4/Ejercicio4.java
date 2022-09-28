@@ -29,9 +29,7 @@ public class Ejercicio4 {
 		// Calculos
 		salir = lluvia == false && tareas == true || biblioteca == true;
 		printer = salir == true ? "Si" : "No";
-		System.out.println();
-		System.out.println("------------------------------------");
-		System.out.println();
+		System.out.println();System.out.println("==============================");System.out.println();
 		
 		
 		System.out.println(salir);
