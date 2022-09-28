@@ -34,6 +34,7 @@ public class Ejercicio4 {
 		System.out.println();
 		
 		
+		System.out.println(salir);
 		System.out.println(printer + " puedes salir.");
 		
 		
