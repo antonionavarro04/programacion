@@ -6,16 +6,17 @@ import java.util.Scanner;
 public class Ejercicio5 {
 
 	public static void main(String[] args) {
-		// Variables
+		// Declaramos las variables para las 3 notas así como para la notaMedia que va a ser calculada.
 		int nota1, nota2, nota3;
 		float notaMedia;
 
-		// Scanner
+		// Declaramos la variable read la caul va a contener el Scanner, tambien vamos a cambiarle
+		// la localizacion al Scanner de ES a US
 		final Scanner read = new Scanner(System.in);
 		read.useLocale(Locale.US);
 		
 
-		// App
+		// Pedimos que el usuario introduzca las 3 notas y las guardamos en las variables correspondientes
 		System.out.print("Introduce la nota del Primer Trimestre: ");
 		nota1 = read.nextByte();
 
@@ -25,14 +26,14 @@ public class Ejercicio5 {
 		System.out.print("Introduce la nota del Tercer Trimestre: ");
 		nota3 = read.nextByte();
 
-		// Calculos
+		// Calculamos la nota media en base a las 3 notas que han sido proporcionadas
 		notaMedia = (nota1 + nota2 + nota3) / 3.0f;
 		
-		// Resultados
+		// Imprimimos los resultados por consola
 		System.out.println();System.out.println("==============================");System.out.println();
 		
 		System.out.println("La nota media fue de: " + notaMedia);
-		System.out.println("La nota media en el boletin es de: " + (byte) notaMedia);
+		System.out.println("La nota media en el boletin es de: " + (byte) notaMedia);  // Con (byte) hacemos que la nota pase a ser un numero entero
 
 		read.close();
 
